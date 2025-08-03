@@ -1,0 +1,220 @@
+/**
+*
+*	Name:			IRANSansX ../fonts
+*	Version:			1.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Apr 22, 2021
+*	Updated on:		Apr 22, 2021
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونتایران سنس Xا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANSansX ../fonts are considered a proprietary software. To gain information about the laws regarding the use of these ../fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of ../fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- ../fonts/-
+*
+**/
+
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/woff/IRANSansX-thin.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/woff/IRANSansX-UltraLight.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/woff/IRANSansX-light.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/woff/IRANSansX-medium.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/woff/IRANSansX-demibold.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-demibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/woff/IRANSansX-extrabold.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-extrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/woff/IRANSansX-black.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/woff/IRANSansX-bold.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRx;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/woff/IRANSansX-regular.woff') format('woff'),
+	url('../fonts/woff2/IRANSansX-regular.woff2') format('woff2');
+}
+.numFa0 {
+	-moz-font-feature-settings: "ss02";
+	-webkit-font-feature-settings: "ss02";
+	font-feature-settings: "ss02";
+}
+.numFa1 {
+	-moz-font-feature-settings: "ss03";
+	-webkit-font-feature-settings: "ss03";
+	font-feature-settings: "ss03";
+}
+
+.w100{
+	font-weight: 100;
+}
+.w200{
+	font-weight: 200;
+}
+.w300{
+	font-weight: 300;
+}
+.w500{
+	font-weight: 500;
+}
+.w600{
+	font-weight: 600;
+}
+.w800{
+	font-weight: 800;
+}
+.w900{
+	font-weight: 900;
+}
+.wNo{
+	font-weight: normal;
+}
+.wBo{
+	font-weight: bold;
+}
+
+.fs10{
+	font-size: 10px;
+}
+.fs11{
+	font-size: 11px;
+}
+.fs12{
+	font-size: 12px;
+}
+.fs13{
+	font-size: 13px;
+}
+.fs14{
+	font-size: 14px;
+}
+.fs15{
+	font-size: 15px;
+}
+.fs16{
+	font-size: 16px !important;
+}
+.fs18{
+	font-size: 18px;
+}
+.fs20{
+	font-size: 20px;
+}
+.wid100{
+	width: 100%;
+}
+.wid50{
+	width: 50%;
+}
+.wid75{
+	width: 75%;
+}
+.wid60{
+	width: 60%;
+}
+body {
+	font-family: IRx, Tahoma,serif;
+	direction: rtl;
+	background-color: #fff;
+	color: var(--c-secondary);
+	font-size: 14px !important;
+	font-weight: normal;
+}
+p{
+    font-family: IRx, Tahoma,serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: IRx, Tahoma, serif;
+    font-weight: 700;
+}
+
+.container{
+	max-width: 1110px;
+}
+
+
+a{
+	text-decoration: none;
+	color: var(--c-secondary);
+	transition: .2s;
+}
+a:hover{
+	color: var(--c-secondary2);
+	transition: .2s;
+}
+::-webkit-input-placeholder { /* Edge */
+	color: var(--c-gray);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: var(--c-gray);
+}
+::placeholder {
+	color: var(--c-gray);
+}
+
+
+
+
+input{
+	outline: none !important;
+}
+
+p{
+	line-height: 24px;
+}
